@@ -58,7 +58,7 @@ class FullBinaryTree {
     }
 
     getParent(node) {
-        return this.nodes[node / 2];
+        return this.nodes[ Math.floor(node / 2)];
     }
 }
 
